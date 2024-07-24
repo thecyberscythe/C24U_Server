@@ -4,7 +4,7 @@ Go & Rust Based C2 Servers for Red Teaming.
 
 ## Summary
 
-This is a repo initially built from a few ChatGPT prompts. If you are looking for a client, please look at the C24U_Client Repo.
+This is a repo initially built from a few ChatGPT prompts. If you are looking for a client, please look for the C24U_Client Repo(comming later).
 
 This project is designed to allow Red-Teamers to quickly setup C2 infrastructure during engagements. The following components can be found within this repo:
 
@@ -14,7 +14,7 @@ This project is designed to allow Red-Teamers to quickly setup C2 infrastructure
 
 ## Disclaimer / Warning
 
-This code is designed to assist authorized Red-Teamers and "White Hats" test organizations within a defined set of Rules of Engagement and Statement of Work. This is not intended to be used within unauthorized or malicious campaigns that may degrade or otherwise harm an individual or business. All code within this project is provided without warranty and without any specific expectation of success. Cyberscythe LLC frequently uploads samples to online AV vendors/analysis programs to aid "Blue-Teams" in detecting this behavior.
+This code is designed to assist authorized Red-Teamers and Penetration Testers, test organizations within a defined set of Rules of Engagement and Statement of Work. This is not intended to be used within unauthorized or malicious campaigns that may degrade or otherwise harm an individual or business. All code within this project is provided without warranty and without any specific expectation of success. It is expected that samples will be uploaded to online AV vendors/analysis programs to aid in detecting this behavior, however with modifications to bits of these programs or recompilation, AV may not have all or current signatures.
 
 - [VirusTotal](https://virustotal.com)
 
@@ -22,8 +22,8 @@ This code is designed to assist authorized Red-Teamers and "White Hats" test org
 
 ### Blog/Watch it work
 
-[Watch and Read Here](https://cyberscythe.com/blog/C24U)
+[Write-Up Coming Soon](https://cyberscythe.com/blog)
 
 ### Contribute/Sponsor/Donate
 
-If you find this useful share, star, donate, sponsor or contribute. We want to ensure that organizations of all sizes are secure and understand what malicious actors do.
+If you find this useful share, star, donate, sponsor or contribute. I want to ensure that organizations of all sizes are secure and understand what malicious actors do.
