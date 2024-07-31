@@ -6,8 +6,8 @@ use tokio_native_tls::{TlsAcceptor, native_tls};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let cert = include_bytes!("cert.pem");
-    let key = include_bytes!("key.pem");
+    let cert = include_bytes!("../../cert.pem");
+    let key = include_bytes!("../../key.pem");
 
     let identity = native_tls::Identity::from_pkcs8(cert, key)?;
     let acceptor = TlsAcceptor::from(native_tls::TlsAcceptor::builder(identity).build()?);

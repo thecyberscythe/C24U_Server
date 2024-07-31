@@ -21,8 +21,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     info!("Starting server...");
 
     // Load TLS certificates
-    let cert = include_bytes!("cert.pem");
-    let key = include_bytes!("key.pem");
+    let cert = include_bytes!("../../cert.pem");
+    let key = include_bytes!("../../key.pem");
 
     let identity = native_tls::Identity::from_pkcs8(cert, key)?;
     let acceptor = TlsAcceptor::from(native_tls::TlsAcceptor::builder(identity).build()?);
